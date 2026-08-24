@@ -1,0 +1,25 @@
+# Python 
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+.Python 
+env/ 
+venv/ 
+.env 
+.venv/ 
+.env/ 
+vectorstore/ 
+*.db 
+*.sqlite 
+*.sqlite3 
+.DS_Store 
+.vscode/ 
+.idea/ 
+*.log 
+.pytest_cache/ 
+.mypy_cache/ 
+.ruff_cache/ 
+dist/ 
+build/ 
+*.egg-info/ 

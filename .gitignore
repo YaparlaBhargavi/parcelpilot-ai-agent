@@ -1,25 +1,28 @@
-# Python 
-__pycache__/ 
-*.pyc 
-*.pyo 
-*.pyd 
-.Python 
-env/ 
-venv/ 
-.env 
-.venv/ 
-.env/ 
-vectorstore/ 
-*.db 
-*.sqlite 
-*.sqlite3 
-.DS_Store 
-.vscode/ 
-.idea/ 
-*.log 
-.pytest_cache/ 
-.mypy_cache/ 
-.ruff_cache/ 
-dist/ 
-build/ 
-*.egg-info/ 
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+.streamlit/secrets.toml

@@ -12,7 +12,6 @@ streamlit==1.62.0
 # Environment
 # -------------------------
 python-dotenv==1.0.1
-
 # -------------------------
 # Data Processing
 # -------------------------
@@ -20,6 +19,7 @@ pandas==2.2.3
 openpyxl==3.1.5
 sqlalchemy==2.0.36
 numpy==1.26.4
+plotly==6.3.1
 
 # -------------------------
 # PDF / Document Processing
